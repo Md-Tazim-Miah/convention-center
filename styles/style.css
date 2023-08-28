@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+}
+
+.custom-brand{
+    color: #3E3E3E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.custom-link{
+    color: #3E3E3E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.custom-carousel-texts h2{
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120.5%;
+}
+
+
+@media all and (max-width:768px) {
+    .custom-carousel-texts h2{
+        font-size: 16px;
+    }
+
+    .custom-carousel-texts p{
+        font-size: 8px;
+    }
+
+    .c-btn{
+        font-size: 8px;
+    }
+}
