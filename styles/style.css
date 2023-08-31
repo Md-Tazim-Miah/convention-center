@@ -24,6 +24,7 @@ body{
     line-height: normal;
 }
 
+
 .custom-carousel-texts h2{
     color: #FFF;
     text-align: center;
@@ -35,17 +36,56 @@ body{
     line-height: 120.5%;
 }
 
+.c-album-h2{
+    color: #0A0826;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
 
-@media all and (max-width:768px) {
+.c-album-p{
+    color: #6C6C6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.c-album-btn{
+    background: #3F87F5;
+}
+
+
+@media all and (max-width:576px) {
+
+    .custom-carousel-texts{
+        width: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        left: 0% !important;
+        right: 0% !important;
+
+    }
+
     .custom-carousel-texts h2{
-        font-size: 16px;
+        margin-bottom: 30px;
+        font-size: 24px;
     }
 
-    .custom-carousel-texts p{
-        font-size: 8px;
+    .c-album-h2{
+        font-size: 19px;
+    }
+    
+    .c-album-p{
+        font-size: 15px;
     }
 
-    .c-btn{
-        font-size: 8px;
+    .c-album-btn{
+        background: #3F87F5;
     }
 }
