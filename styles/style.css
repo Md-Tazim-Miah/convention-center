@@ -60,6 +60,136 @@ body{
     background: #3F87F5;
 }
 
+/* package section styles */
+.c-our-package h1{
+    color: #0A0826;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.c-card-title{
+    color: #231D4F;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.c-card-hot-title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.c-card-subtitle{
+    color: #231D4F;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.c-card-hot-subtitle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.c-card-text{
+    color: #848199;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.c-card-hot-text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.c-package-btn{
+    border-radius: 24px;
+    background: #fef7fc;
+    color: #3F87F5;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    padding: 13px 60px ;
+}
+
+.c-package-hot-btn{
+    border-radius: 24px;
+    background: #FFF;
+    color: #3F87F5;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    padding: 13px 60px ;
+}
+
+
+.c-package-btn:hover{
+    background: #fbbae7;
+    color: #04429f;
+    
+}
+
+.c-package-hot-btn:hover{
+    background: #04429f;
+    color: #FFF;
+}
+
+.c-card-hot{
+    border-radius: 26px;
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px 0px rgba(63, 135, 245, 0.25);
+}
+
+.c-badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    border-radius: 13.5px;
+    background: #FF4E4E;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.833px;
+}
 
 @media all and (max-width:576px) {
 
@@ -87,5 +217,14 @@ body{
 
     .c-album-btn{
         background: #3F87F5;
+    }
+
+    /* package styles */
+    .c-our-package h1{
+        font-size: 19px;
+    }
+
+    .c-card-extra-width{
+        width: 85%;
     }
 }
