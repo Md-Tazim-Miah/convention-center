@@ -191,6 +191,56 @@ body{
     letter-spacing: 0.833px;
 }
 
+/* clients comments styles */
+.c-happy-clients{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.c-clients-comment-card-body{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.13);
+    text-align: center;
+}
+
+.c-comment{
+    color: #6C6C6C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+.client-name{
+    color: #0C1920;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.client-profession{
+    margin-bottom: 0;
+    color: #747474;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+
 @media all and (max-width:576px) {
 
     .custom-carousel-texts{
