@@ -107,8 +107,24 @@
 
     <main>
 
+
+      <!-- this is a toast -->
+      <div class="toast-container">
+        <div class="toast align-items-center position-fixed top-50 end-0 translate-middle-y c-toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="d-flex">
+            <img class="ms-3" src="icons/Vector.svg" alt="">
+            <div class="toast-body toast-message  py-3">
+              20% off on next booking
+            </div>
+            <button type="button" class="btn-close me-2 mt-2 ms-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+
+      
+
       <!-- album section starts here -->
-      <section class="container mb-5 pb-3 ">
+      <section class="container pb-3 ">
         <div class="d-flex flex-column-reverse flex-md-row align-items-center my-5 pt-md-5">
           <button class="btn btn-primary d-block d-md-none c-album-btn">Explore our album <span><img src="icons/arrow-forward 1.svg" alt=""> </span></button>
           <div class="w-100 w-md-50 mb-3 me-md-5">
@@ -127,11 +143,9 @@
 
       <!-- package section starts here -->
       <section class="container">
-        <div class="text-center my-md-5 py-md-5 c-our-package">
+        <div class="text-center py-md-5 c-our-package">
           <h1>Our Package</h1>
         </div>
-        
-        
         <div class="row">
           <div class="col-12 col-md-3 c-card-extra-width">
             <div class="card border-0">
@@ -386,12 +400,34 @@
         </div>
       </section>
       <!-- frequently asked questions section ends here -->
-      
+
     </main>
+
+
+    <footer>
+      <section class="container">
+        <div class="d-flex flex-column-reverse flex-md-row justify-content-between align-items-center">
+          <div class="mt-5 mt-mb-0">
+            <p class="copyright">© 2020 bike. All rights reserved.</p>
+          </div>
+          <div class="text-center">
+            <p class="mb-3 get-the-app">Get the App</p>
+            <div class="mb-3">
+              <img src="icons/apple-badge.svg" alt="">
+            </div>
+            <div class="mb-3">
+              <img src="icons/playstore-badge.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
 
 
 
     <!-- Bootstrap JS link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- js for toast -->
+    <script src="script.js"></script>
   </body>
 </html>
